@@ -1,0 +1,16 @@
+export { default as AliAvatar } from "./avatar-ali.png";
+export { default as AnishaAvatar } from "./avatar-anisha.png";
+export { default as RichardAvatar } from "./avatar-richard.png";
+export { default as ShanaiAvatar } from "./avatar-shanai.png";
+export { default as SimplifyBackgroundDekstop } from "./bg-simplify-section-desktop.svg";
+export { default as SimplifyBackgroundMobile } from "./bg-simplify-section-mobile.svg";
+export { default as TabletBackgroundPattern } from "./bg-simplify-section-mobile.svg";
+export { default as CloseIcon } from "./icon-close.svg";
+export { default as FacebookIcon } from "./icon-facebook.svg";
+export { default as HamburgerIcon } from "./icon-hamburger.svg";
+export { default as InstagramIcon } from "./icon-instagram.svg";
+export { default as PinterestIcon } from "./icon-pinterest.svg";
+export { default as TwitterIcon } from "./icon-twitter.svg";
+export { default as YoutubeIcon } from "./icon-youtube.svg";
+export { default as IntroIllustration } from "./illustration-intro.svg";
+export { default as SiteLogo } from "./logo.svg";
