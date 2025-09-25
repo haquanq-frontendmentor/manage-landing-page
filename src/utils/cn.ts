@@ -1,11 +1,11 @@
 import clsx, { type ClassValue } from "clsx";
-import { extendTailwindMerge } from "tailwind-merge";
+import { extendTailwindMerge, twMerge } from "tailwind-merge";
 
 const customMerge = extendTailwindMerge({
-    override: {
+    extend: {
         classGroups: {
-            "font-size": ["100", "200", "300", "400", "500", "600", "700"],
-            leading: ["tight", "tighter", "tightest"],
+            "font-size": ["text-100", "text-200", "text-300", "text-400", "text-500", "text-600", "text-700"],
+            tracking: ["tracking-tight", "tracking-tighter", "tracking-tightest"],
         },
     },
 });
