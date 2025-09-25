@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+/* be-vietnam-400 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/BeVietnam-Regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* be-vietnam-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/BeVietnam-Medium.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* be-vietnam--700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/BeVietnam-Bold.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+@theme {
+    --color-*: initial;
+
+    --color-orange-50: hsl(13, 100%, 96%);
+    --color-orange-400: hsl(12, 88%, 59%);
+
+    --color-blue-950: hsl(228, 39%, 23%);
+
+    --color-gray-950: hsl(233, 12%, 13%);
+    --color-gray-50: hsl(0, 0%, 98%);
+
+    --font-*: initial;
+
+    --font-weight-*: initial;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --text-*: initial;
+    --text-100: 0.8125rem;
+    --text-200: 0.9375rem;
+    --text-300: 1rem;
+    --text-400: 1.875rem;
+    --text-500: 2rem;
+    --text-600: 2.5rem;
+    --text-700: 3.5rem;
+
+    --tracking-*: initial;
+    --tracking-tight: -0.02em;
+    --tracking-tighter: -0.032em;
+    --tracking-tightest: -0.05em;
+}
+
+@layer {
+    body {
+        font-family: "Be Vietnam", system-ui;
+    }
+}
