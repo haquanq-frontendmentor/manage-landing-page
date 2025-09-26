@@ -18,5 +18,5 @@
 {#if link !== undefined}
   <a class={cn(className, xClass)} href={link} {...restProps}>{@render children?.()}</a>
 {:else}
-  <button class={cn(className, xClass)} type="button" {...restProps}>{@render children?.()}</button>
+  <button class={cn(className, xClass)} {type} {...restProps}>{@render children?.()}</button>
 {/if}
