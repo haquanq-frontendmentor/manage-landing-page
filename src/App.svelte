@@ -1,6 +1,12 @@
 <script lang="ts">
   import Header from "./features/Header.svelte";
+  import Intro from "./features/Intro.svelte";
+  import Container from "./layouts/Container.svelte";
 </script>
 
 <Header />
-<main></main>
+<main class="overflow-x-hidden">
+  <Container>
+    <Intro />
+  </Container>
+</main>
