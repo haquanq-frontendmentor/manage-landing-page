@@ -63,8 +63,35 @@
     --tracking-tightest: -0.05em;
 }
 
-@layer {
+@layer base {
+    :root {
+        --gradient-backdrop: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.48) 27%,
+            rgba(4, 1, 1, 0.15) 79%,
+            rgba(0, 0, 0, 0) 100%
+        );
+    }
     body {
         font-family: "Be Vietnam", system-ui;
+        overflow-x: hidden;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    a {
+        line-height: 1;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply text-gray-950;
+    }
+
+    p {
+        @apply text-gray-500;
     }
 }
