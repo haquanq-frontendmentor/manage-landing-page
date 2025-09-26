@@ -7,7 +7,7 @@
 <section
   class="grid gap-x-[clamp(4rem,-5.1875rem+19.1406vw,7.0625rem)] gap-y-8 pt-12 md:grid-flow-dense md:grid-cols-[1fr_min(35rem,50%)] md:pt-[6.875rem]"
 >
-  <div class="flex justify-center md:col-start-2 md:justify-start">
+  <div class="flex justify-center md:col-start-2 md:translate-x-[-0.3125rem] md:justify-start">
     <img class="md:max-w-[500%]" src={IntroIllustration} alt="" />
   </div>
   <div class="flex flex-col items-center text-center md:items-start md:pt-[3.6875rem] md:text-start">
