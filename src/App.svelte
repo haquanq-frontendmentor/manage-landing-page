@@ -1,6 +1,7 @@
 <script lang="ts">
   import Aside from "./features/Aside.svelte";
   import Features from "./features/Features.svelte";
+  import Footer from "./features/Footer/Footer.svelte";
   import Header from "./features/Header.svelte";
   import Intro from "./features/Intro.svelte";
   import Container from "./layouts/Container.svelte";
@@ -14,3 +15,4 @@
   </Container>
 </main>
 <Aside />
+<Footer />
