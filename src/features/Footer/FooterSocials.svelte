@@ -1,6 +1,6 @@
 <section class="">
   <h2 class="sr-only">Follow us</h2>
-  <ul class="flex gap-[0.8125rem] text-white [&_a]:transition-colors [&_a]:hover:text-orange-400">
+  <ul class="flex gap-[0.8125rem] text-white [&_a]:block [&_a]:transition-colors [&_a]:hover:text-orange-400">
     <li>
       <a href="/" aria-label="Facebook">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"

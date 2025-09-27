@@ -3,7 +3,7 @@
   import Container from "../layouts/Container.svelte";
 </script>
 
-<aside class="bg-orange-400 pt-[3.875rem] pb-[4.375rem]">
+<aside class="bg-orange-400 pt-[3.875rem] pb-[4.375rem] [--focus-outline-color:#fff]">
   <Container>
     <div
       class="flex flex-col items-center gap-8 text-center md:flex-row md:items-start md:justify-between md:text-start"

@@ -17,7 +17,7 @@
         <FooterNav />
       </div>
       <div class="lg:col-start-1 lg:row-start-1">
-        <a class="text-gray-50" href="/" aria-label="Homepage">
+        <a class="block text-gray-50" href="/" aria-label="Homepage">
           <svg xmlns="http://www.w3.org/2000/svg" width="146" height="24">
             <g fill="none" fill-rule="evenodd"
               ><path

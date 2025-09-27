@@ -72,6 +72,11 @@
             rgba(4, 1, 1, 0.15) 79%,
             rgba(0, 0, 0, 0) 100%
         );
+
+        --focus-outline-offset: 3px;
+        --focus-outline-width: 3px;
+        --focus-outline-style: dashed;
+        --focus-outline-color: hsl(12, 88%, 59%);
     }
     body {
         font-family: "Be Vietnam", system-ui;
@@ -95,5 +100,27 @@
 
     p {
         @apply text-gray-500;
+    }
+
+    input:focus {
+        outline-offset: var(--focus-outline-offset);
+        outline-width: var(--focus-outline-width);
+        outline-color: var(--focus-outline-color);
+        outline-style: var(--focus-outline-style);
+    }
+
+    @supports selector(:focus-visible) {
+        a:focus,
+        button:focus {
+            outline: none;
+        }
+
+        a:focus-visible,
+        button:focus-visible {
+            outline-offset: var(--focus-outline-offset);
+            outline-width: var(--focus-outline-width);
+            outline-color: var(--focus-outline-color);
+            outline-style: var(--focus-outline-style);
+        }
     }
 }
