@@ -37,14 +37,18 @@
     const focusableElements = element.querySelectorAll("a") as NodeListOf<HTMLAnchorElement>;
 
     focusableElements[0].addEventListener("keydown", (e) => {
-      if (e.shiftKey && e.key === "Tab") {
-        focusableElements[focusableElements.length - 1].focus();
+      if (e.shiftKey && e.key === "Tab" && menuOpening) {
+        requestAnimationFrame(() => {
+          focusableElements[focusableElements.length - 1].focus();
+        });
       }
     });
 
     focusableElements[focusableElements.length - 1].addEventListener("keydown", (e) => {
-      if (!e.shiftKey && e.key === "Tab") {
-        focusableElements[0].focus();
+      if (!e.shiftKey && e.key === "Tab" && menuOpening) {
+        requestAnimationFrame(() => {
+          focusableElements[0].focus();
+        });
       }
     });
 
