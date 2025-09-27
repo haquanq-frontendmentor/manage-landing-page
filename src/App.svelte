@@ -4,6 +4,7 @@
   import Footer from "./features/Footer/Footer.svelte";
   import Header from "./features/Header.svelte";
   import Intro from "./features/Intro.svelte";
+  import Testimonials from "./features/Testimonials.svelte";
   import Container from "./layouts/Container.svelte";
 </script>
 
@@ -13,6 +14,7 @@
     <Intro />
     <Features />
   </Container>
+  <Testimonials />
 </main>
 <Aside />
 <Footer />
