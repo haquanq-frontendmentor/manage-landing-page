@@ -11,7 +11,7 @@
       <h2 class="text-600 max-w-120 leading-11 font-bold tracking-tight text-gray-50">
         Simplify how your team works today.
       </h2>
-      <Button xClass="bg-gray-50 text-orange-400 md:mt-[1.625rem]">Get Started</Button>
+      <Button link="" xClass="bg-gray-50 text-orange-400 md:mt-[1.625rem]">Get Started</Button>
     </div>
   </Container>
 </aside>
