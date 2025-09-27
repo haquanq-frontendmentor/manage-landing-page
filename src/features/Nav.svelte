@@ -83,11 +83,11 @@
       class="text-300 md:text-100 mx-auto flex w-[min(100%-3rem,25rem)] flex-col items-center gap-x-8 gap-y-[1.9375rem] rounded-sm bg-white py-11 font-bold tracking-tight text-gray-950 md:w-auto md:flex-row md:bg-transparent md:p-0 md:pt-[0.125rem] md:pr-[0.625rem] md:tracking-[initial] [&_a]:block [&_a]:leading-4 [&_a]:transition-opacity [&_a]:hover:opacity-50"
       use:navListAction
     >
-      <li><a href="/">Pricing</a></li>
-      <li><a href="/">Product</a></li>
-      <li><a href="/">About Us</a></li>
-      <li><a href="/">Careers</a></li>
-      <li><a href="/">Community</a></li>
+      <li><a href="">Pricing</a></li>
+      <li><a href="">Product</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Careers</a></li>
+      <li><a href="">Community</a></li>
     </ul>
   </div>
 </nav>

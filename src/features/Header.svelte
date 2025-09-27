@@ -9,7 +9,7 @@
   <Container>
     <div class="flex items-center justify-between pt-10 md:pt-14">
       <div class="flex shrink-0 items-end md:h-[2.375rem]">
-        <a href="/" aria-label="Homepage">
+        <a href="" aria-label="Homepage">
           <img class="h-[1.125rem] md:h-[initial]" src={SiteLogo} alt="" />
         </a>
       </div>

@@ -3,14 +3,14 @@
   aria-label="Footer navigation"
 >
   <ul class="flex flex-col gap-[1.1875rem]">
-    <li><a href="/">Home</a></li>
-    <li><a href="/">Pricing</a></li>
-    <li><a href="/">Products</a></li>
-    <li><a href="/">About Us</a></li>
+    <li><a href="">Home</a></li>
+    <li><a href="">Pricing</a></li>
+    <li><a href="">Products</a></li>
+    <li><a href="">About Us</a></li>
   </ul>
   <ul class="flex flex-col gap-[1.1875rem]">
-    <li><a href="/">Careers</a></li>
-    <li><a href="/">Community</a></li>
-    <li><a href="/">Privacy Policy</a></li>
+    <li><a href="">Careers</a></li>
+    <li><a href="">Community</a></li>
+    <li><a href="">Privacy Policy</a></li>
   </ul>
 </nav>
