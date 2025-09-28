@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Aside from "./features/Aside.svelte";
-  import Features from "./features/Features.svelte";
-  import Footer from "./features/Footer/Footer.svelte";
-  import Header from "./features/Header.svelte";
-  import Intro from "./features/Intro.svelte";
-  import Testimonials from "./features/Testimonials.svelte";
+  import Aside from "./components/Aside.svelte";
+  import Features from "./components/Features.svelte";
+  import Footer from "./components/Footer/Footer.svelte";
+  import Header from "./components/Header.svelte";
+  import Intro from "./components/Intro.svelte";
+  import Testimonials from "./components/Testimonials.svelte";
   import Container from "./layouts/Container.svelte";
 </script>
 
