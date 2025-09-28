@@ -58,7 +58,7 @@
         document.body.style.overflow = "hidden";
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else {
-        document.body.style.overflow = "hidden";
+        document.body.style.overflow = "";
       }
     });
   };
