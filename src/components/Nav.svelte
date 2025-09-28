@@ -53,7 +53,13 @@
     });
 
     $effect(() => {
-      if (menuOpening) focusableElements[0].focus();
+      if (menuOpening) {
+        focusableElements[0].focus();
+        document.body.style.overflow = "hidden";
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        document.body.style.overflow = "hidden";
+      }
     });
   };
 </script>
