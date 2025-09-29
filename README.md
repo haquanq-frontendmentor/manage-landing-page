@@ -45,9 +45,9 @@ Accessibility
 - [x] Responsive accross different screen sizes
 - [x] Interactive elements have clear focus indicator
 
-### Preview (Desktop)
+### Preview
 
-![](./docs/design/desktop-design.jpg)
+![](./docs/preview.jpg)
 
 ## :stars: Tech Stack and Approach
 
